@@ -6,15 +6,18 @@ html {
 }
 
 body {
-	// ...
+	width: 80%;
+	margin: 0 auto;
+	font-family: $serif;
+	font-size: 12px;
 }
 
 button {
-	// background-color:
-	// border-color:
-	// color:
+	background-color: rgb(134, 172, 185);
+	border-color: rgb(58, 58, 141);
+	color: white;
 	// font-weight:
-	// padding:
+	padding: 7px;
 	// border-radius:
 	// transition:
 	// font-family:
