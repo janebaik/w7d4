@@ -12,24 +12,40 @@ body {
 	font-size: 12px;
 }
 
+li span {
+	font-weight: normal;
+	color: black;
+	font-family: sans-serif;
+}
+
 button {
-	background-color: rgb(134, 172, 185);
-	border-color: rgb(58, 58, 141);
+	background-color: $light-blue;
+	border-color: $lightest-blue;
 	color: white;
-	// font-weight:
+	font-weight: bold;
 	padding: 7px;
-	// border-radius:
+	border-radius: 3px;
 	// transition:
-	// font-family:
+	font-family: sans-serif;
 	// text-transform:
 	// font-size:
 	// text-align:
 }
 
+// #fas:hover, #sections-sidebar-btn:hover, #search-modal-btn:hover {
+// 	background-color: $lightest-gray;
+// }
+
+// li > i {
+// 	padding: 7px;
+// 	border-radius: 3px;
+// }
+
 button:hover {
-	// background-color:
-	// border-color:
+	background-color: $dark-blue;
+	border-color: $darkest-blue;
 }
+
 
 /*
 	Header Rules
