@@ -1550,3 +1550,16 @@ Started GET "/assets/application.self-d97687bbba37a5cc53f5bc8eb7700761c1d8635bb6
 Started GET "/assets/application.self-d97687bbba37a5cc53f5bc8eb7700761c1d8635bb690d78179b603809078ec7d.css?body=1&livereload=1607629319792" for ::1 at 2020-12-10 11:41:59 -0800
 Started GET "/assets/application.self-d97687bbba37a5cc53f5bc8eb7700761c1d8635bb690d78179b603809078ec7d.css?body=1&livereload=1607629319793" for ::1 at 2020-12-10 11:41:59 -0800
 Started GET "/assets/application.self-d97687bbba37a5cc53f5bc8eb7700761c1d8635bb690d78179b603809078ec7d.css?body=1&livereload=1607629319794" for ::1 at 2020-12-10 11:41:59 -0800
+Started GET "/" for ::1 at 2020-12-10 11:58:10 -0800
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.4ms)
+  Rendered shared/_masthead.html.erb (0.4ms)
+  Rendered shared/_sections_nav.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (14.9ms)
+Completed 200 OK in 50ms (Views: 46.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-912fbb2b1e8d36e6c52b27b652bc88415d5a1d25abe8f986afb21ce7929df665.css?body=1" for ::1 at 2020-12-10 11:58:10 -0800
