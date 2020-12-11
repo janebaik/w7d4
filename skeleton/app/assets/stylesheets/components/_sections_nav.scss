@@ -18,11 +18,11 @@
 
     li:hover:not(:last-child){
         background-color: $light-gray;
+        cursor: pointer;
     }
 
     li > a {
-        font-size: 7px;
-        
+        font-size: 9px;
     }
 
 
