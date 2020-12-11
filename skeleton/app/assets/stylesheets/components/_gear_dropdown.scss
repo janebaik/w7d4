@@ -4,9 +4,10 @@
     background-color: white;
     display: none;
     position: absolute;
-    top: 10px;
+    padding: 5px;
     right: 0px;
-    width: 50px;
+    width: 250px;
+    border: 1px solid lightgray;
     z-index: 1;
     box-shadow: -1px 4px 6px 1px rgba(0, 0, 0, 0.09);
 
@@ -14,9 +15,12 @@
         border-bottom: 1px solid $light-gray;
         font-family: sans-serif;
 
+        li {
+            padding: 5px;
+        }
+
         a {
             color:$gray;
-            margin: 5px;
         }
         
         li:hover{
@@ -28,14 +32,17 @@
 .dropdown-subtitle {
     color: $gray;
     font-size: 7px;
-    margin: 5px;
+    padding: 5px;
+    margin-top: 5px;
     
 }
 .help{
-    margin: 5px;
+    font-size: 11px;
 
     li {
         color:$blue;
+        padding: 5px;
+        font-family: sans-serif;
     }
 
     a:hover{
@@ -53,7 +60,6 @@
 }
 
 #gear-dropdown-main-nav {
-    border: 1px solid red;
     padding: 10px;
     position: relative;
     
