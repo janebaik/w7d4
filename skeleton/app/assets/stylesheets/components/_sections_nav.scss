@@ -1,0 +1,29 @@
+.sections_nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid $light-gray;
+    font-family: Sans-Serif;
+
+    ul {
+        padding: 7px;
+    }
+    
+    li {
+        float:left;
+        padding-left:10px;
+        padding-right: 10px;
+    }
+
+    li:hover:not(:last-child){
+        background-color: $light-gray;
+    }
+
+    li > a {
+        font-size: 7px;
+        
+    }
+
+
+}
